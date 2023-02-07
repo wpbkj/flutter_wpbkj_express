@@ -36,9 +36,10 @@ class MyApp extends StatelessWidget {
             minWidth: 480,
             defaultScale: true,
             breakpoints: const [
-              ResponsiveBreakpoint.resize(480, name: MOBILE),
+              ResponsiveBreakpoint.autoScale(480, name: MOBILE),
               ResponsiveBreakpoint.autoScale(800, name: TABLET),
-              ResponsiveBreakpoint.resize(1000, name: DESKTOP),
+              ResponsiveBreakpoint.autoScale(1000, name: DESKTOP),
+              ResponsiveBreakpoint.autoScale(2460, name: '4K'),
             ],
             background: Container(color: Colors.white)); // 自适应比例缩放
         child = botToastBuilder(context, child); // 初始化toast组件
