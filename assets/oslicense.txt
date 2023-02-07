@@ -1,0 +1,214 @@
+async
+https://github.com/dart-lang/async
+BSD-3-Clause license
+https://github.com/dart-lang/async/blob/master/LICENSE
+
+bot_toast
+https://github.com/MMMzq/bot_toast
+Apache-2.0 license
+https://github.com/MMMzq/bot_toast/blob/master/LICENSE
+
+chinese_font_library
+https://github.com/LastMonopoly/chinese_font_library
+BSD-3-Clause license
+https://github.com/LastMonopoly/chinese_font_library/blob/master/LICENSE
+
+collection
+https://github.com/dart-lang/collection
+BSD-3-Clause license
+https://github.com/dart-lang/collection/blob/master/LICENSE
+
+convert
+https://github.com/dart-lang/convert
+BSD-3-Clause license
+https://github.com/dart-lang/convert/blob/master/LICENSE
+
+cupertino_icons
+https://github.com/flutter/packages/tree/main/third_party/packages/cupertino_icons
+MIT license
+https://github.com/flutter/packages/blob/main/third_party/packages/cupertino_icons/LICENSE
+
+curved_labeled_navigation_bar
+https://github.com/namanh11611/curved_labeled_navigation_bar
+BSD-2-Clause license
+https://github.com/namanh11611/curved_labeled_navigation_bar/blob/master/LICENSE
+
+dart
+https://github.com/dart-lang/sdk/
+BSD-3-Clause license
+https://github.com/dart-lang/sdk/blob/main/LICENSE
+
+dio
+https://github.com/flutterchina/dio
+MIT license
+https://github.com/flutterchina/dio/blob/develop/LICENSE
+
+easy_splash_screen
+https://github.com/imsujan276/EasySplashScreen
+MIT license
+https://github.com/imsujan276/EasySplashScreen/blob/main/LICENSE
+
+extended_sliver
+https://github.com/fluttercandies/extended_sliver
+MIT license
+https://github.com/fluttercandies/extended_sliver/blob/master/LICENSE
+
+ffi
+https://github.com/dart-lang/ffi
+BSD-3-Clause license
+https://github.com/dart-lang/ffi/blob/master/LICENSE
+
+flutter
+https://github.com/flutter/flutter
+BSD-3-Clause license
+https://github.com/flutter/flutter/blob/master/LICENSE
+
+flutter_localizations
+https://github.com/channdara/flutter_localization
+BSD-3-Clause license
+https://github.com/channdara/flutter_localization/blob/main/LICENSE
+
+http
+https://github.com/dart-lang/http/tree/master/pkgs/http
+BSD-3-Clause license
+https://github.com/dart-lang/http/blob/master/pkgs/http/LICENSE
+
+http_parser
+https://github.com/dart-lang/http_parser
+BSD-3-Clause license
+https://github.com/dart-lang/http_parser/blob/master/LICENSE
+
+io
+https://github.com/dart-lang/io
+BSD-3-Clause license
+https://github.com/dart-lang/io/blob/master/LICENSE
+
+js
+https://github.com/dart-lang/sdk/tree/main/pkg/js
+BSD-3-Clause license
+https://github.com/dart-lang/sdk/blob/main/pkg/js/LICENSE
+
+meta
+https://github.com/dart-lang/sdk/tree/main/pkg/meta
+BSD-3-Clause license
+https://github.com/dart-lang/sdk/blob/main/pkg/meta/LICENSE
+
+path
+https://github.com/dart-lang/path
+BSD-3-Clause license
+https://github.com/dart-lang/path/blob/master/LICENSE
+
+path_provider
+https://github.com/flutter/plugins/tree/main/packages/path_provider/path_provider
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/path_provider/path_provider/LICENSE
+
+path_provider_android
+https://github.com/flutter/plugins/tree/main/packages/path_provider/path_provider_android
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/path_provider/path_provider_android/LICENSE
+
+path_provider_foundation
+https://github.com/flutter/plugins/tree/main/packages/path_provider/path_provider_foundation
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/path_provider/path_provider_foundation/LICENSE
+
+path_provider_linux
+https://github.com/flutter/plugins/tree/main/packages/path_provider/path_provider_linux
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/path_provider/path_provider_linux/LICENSE
+
+path_provider_platform_interface
+https://github.com/flutter/plugins/tree/main/packages/path_provider/path_provider_platform_interface
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/path_provider/path_provider_platform_interface/LICENSE
+
+path_provider_windows
+https://github.com/flutter/plugins/tree/main/packages/path_provider/path_provider_windows
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/path_provider/path_provider_windows/LICENSE
+
+plugin_platform_interface
+https://github.com/flutter/plugins/tree/main/packages/plugin_platform_interface
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/plugin_platform_interface/LICENSE
+
+pull_to_refresh_notification
+https://github.com/fluttercandies/pull_to_refresh_notification
+MIT license
+https://github.com/fluttercandies/pull_to_refresh_notification/blob/master/LICENSE
+
+responsive_framework
+https://github.com/Codelessly/ResponsiveFramework
+0BSD license
+https://github.com/Codelessly/ResponsiveFramework/blob/master/LICENSE
+
+screen_retriever
+https://github.com/leanflutter/screen_retriever
+MIT license
+https://github.com/leanflutter/screen_retriever/blob/main/LICENSE
+
+shared_preferences
+https://github.com/flutter/plugins/tree/main/packages/shared_preferences/shared_preferences
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/shared_preferences/shared_preferences/LICENSE
+
+sqlite3
+https://github.com/simolus3/sqlite3.dart/tree/master/sqlite3
+MIT license
+https://github.com/simolus3/sqlite3.dart/blob/master/sqlite3/LICENSE
+
+sqlite3_flutter_libs
+https://github.com/simolus3/sqlite3.dart/tree/main/sqlite3_flutter_libs
+MIT license
+https://github.com/simolus3/sqlite3.dart/blob/main/sqlite3_flutter_libs/LICENSE
+
+string_scanner
+https://github.com/dart-lang/string_scanner
+BSD-3-Clause license
+https://github.com/dart-lang/string_scanner/blob/master/LICENSE
+
+url_launcher
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher/LICENSE
+
+url_launcher_android
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_android
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_android/LICENSE
+
+url_launcher_ios
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_ios
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_ios/LICENSE
+
+url_launcher_linux
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_linux
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_linux/LICENSE
+
+url_launcher_macos
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_macos
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_macos/LICENSE
+
+url_launcher_platform_interface
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_platform_interface
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_platform_interface/LICENSE
+
+url_launcher_web
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_web
+Apache-2.0, BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_web/LICENSE
+
+url_launcher_windows
+https://github.com/flutter/plugins/tree/main/packages/url_launcher/url_launcher_windows
+BSD-3-Clause license
+https://github.com/flutter/plugins/blob/main/packages/url_launcher/url_launcher_windows/LICENSE
+
+window_manager
+https://github.com/leanflutter/window_manager
+MIT license
+https://github.com/leanflutter/window_manager/blob/main/LICENSE
