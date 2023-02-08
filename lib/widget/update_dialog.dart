@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:wpbkj_express/main.dart';
 
 void showUpdateDialog(
     BuildContext context, String lastVersion, String msg) async {
@@ -36,11 +37,12 @@ void showUpdateDialog(
         );
       });
   // 点击actions执行
+
   if (result == 'gitee') {
-    launchUrlString('https://gitee.com/wpbkj/flutter_wpbkj_express/releases/',
+    launchUrlString('$giteeUrl/releases/',
         mode: LaunchMode.externalApplication);
   } else if (result == 'github') {
-    launchUrlString('https://github.com/wpbkj/flutter_wpbkj_express/releases/',
+    launchUrlString('$githubUrl/releases/',
         mode: LaunchMode.externalApplication);
   }
 }
