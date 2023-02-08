@@ -10,9 +10,8 @@ import 'package:wpbkj_express/main.dart';
 Future<List<dynamic>> getUpdate() async {
   List<dynamic> resultList = [];
   try {
-    var response = await Dio().get(
-        'http://www.wpbkj.com/flutter_wpbkj_express/update.php',
-        options: Options(responseType: ResponseType.plain));
+    var response =
+        await Dio().get('', options: Options(responseType: ResponseType.plain));
     String responseData = response.data.toString();
     Map<String, dynamic> updateMap = jsonDecode(responseData);
     if (updateMap['lasted_version'] != version) {
