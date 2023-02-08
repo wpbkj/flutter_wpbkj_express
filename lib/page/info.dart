@@ -105,7 +105,7 @@ class _InfoPageState extends State<InfoPage>
                                           CrossAxisAlignment.start,
                                       children: const [
                                         Text(
-                                          'WPBKJ 工具集',
+                                          'WPBKJ快递查询助手',
                                           style: TextStyle(fontSize: 20),
                                         ),
                                         Text(
