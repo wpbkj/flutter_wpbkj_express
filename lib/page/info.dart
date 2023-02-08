@@ -43,7 +43,7 @@ class _InfoPageState extends State<InfoPage>
   // 分享应用方法
   void shareApp() {
     Clipboard.setData(const ClipboardData(
-        text: 'https://www.wpbkj.com/flutter_wpbkj_express.html'));
+        text: 'https://www.wpbkj.com/archives/flutter_wpbkj_express.html'));
     showToastSuccess('已将链接复制进剪贴板，您可粘贴链接以分享给其他人');
   }
 
