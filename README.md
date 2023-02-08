@@ -1,4 +1,4 @@
-# 欢迎WPBKJ 快递查询助手
+# 欢迎使用WPBKJ 快递查询助手
 <img src="assets/logo.png" width="100">
 
 ![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.1-blue)
