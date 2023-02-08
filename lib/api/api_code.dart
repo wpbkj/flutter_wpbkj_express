@@ -18,6 +18,7 @@ const Map<String, String> expressCode = {
   "苏宁快递": "suning",
   "国通快递": "guotong",
   "京东快递": "jingdong",
+  "京东物流": "jd",
   "邮政平邮": "pingyou",
   "顺丰": "shunfeng"
 };
@@ -37,6 +38,7 @@ const Map<String, String> codeExpress = {
   "suning": "苏宁快递",
   "guotong": "国通快递",
   "jingdong": "京东快递",
+  "jd": "京东物流",
   "pingyou": "邮政平邮",
   "shunfeng": "顺丰"
 };
