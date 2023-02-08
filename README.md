@@ -60,6 +60,16 @@ flutter run
 ``重写全局主题色``  
 ``添加Linux打包release``
 
+## 联系作者
+WPBKJ
+``微信`` : ``wpbkj123``
+``QQ`` : ``64345171``
+``个人博客`` : ``https://www.wpbkj.com/``
+``邮箱`` : ``wpbkj123@163.com``
+``微信公众号`` : ``WPBKJ小站``
+
+<img src="assets/gzh.jpg" width="200">
+
 ## 屏幕截图
 ### 移动端
 <img src="screenshots/1.jpg" width="300"><img src="screenshots/2.jpg" width="300"><img src="screenshots/3.jpg" width="300"><img src="screenshots/4.jpg" width="300"><img src="screenshots/5.jpg" width="300">
