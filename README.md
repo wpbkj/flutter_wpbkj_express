@@ -10,12 +10,12 @@
  
 - **功能丰富** ：支持快递查询，添加标签，清空数据等；
 - **易于读懂** ：源代码注释丰富，尽量在小的细节都添加注释，使得Flutter初学者可轻松理解；
-- **跨平台性** ：支持Android，Windows，iOS，MacOS，Linux等平台。
+- **跨平台性** ：支持Android，Windows，Linux，iOS，MacOS等平台。
 
 -------------------
 
 ## 使用  
-releases发布Android和Windows版本，其他平台可自行编译使用(后期测试设备允许后全平台release将发布)  
+releases发布Android、Windows和Linux版本，其他平台可自行编译使用(后期测试设备允许后全平台release将发布)  
 Android、Windows和Linux可直接下载releases最新发行版使用  
 
 [releases](https://github.com/wpbkj/flutter_wpbkj_express/releases)  
