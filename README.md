@@ -28,9 +28,9 @@ Android通常架构为``arm64``，下载``arm64``版即可使用
 ``armeabi``:``app-armeabi-v7a-release.apk``  
 ``x86_64``:``app-x86_64-release.apk``   
 
-Windows请下载``Linux-bundle.tar.gz``解压后运行``bundle/wpbkj_express``直接使用  
+Linux请下载``Linux-bundle.tar.gz``解压后运行``bundle/wpbkj_express``直接使用  
 
-Linux请下载``Windows-Release.zip``解压后运行``Release/wpbkj_express.exe``直接使用  
+Windows请下载``Windows-Release.zip``解压后运行``Release/wpbkj_express.exe``直接使用  
 
 ## 编译流程
 如您需要自行编译学习，请遵循以下流程  
