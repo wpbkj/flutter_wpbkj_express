@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart';
 import 'package:window_manager/window_manager.dart';
 
 const String appTitle = "WPBKJ快递查询助手"; // 应用标题
-const String version = "1.0.1"; // 应用版本号
+const String version = "1.0.2"; // 应用版本号
 
 // 判断是否为桌面端方法
 bool get isDesktop {
