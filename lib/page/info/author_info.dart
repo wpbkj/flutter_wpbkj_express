@@ -15,10 +15,7 @@ class _AuthorInfoPageState extends State<AuthorInfoPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('联系作者'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('联系作者')),
       body: ListView(
         children: [
           Container(

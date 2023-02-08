@@ -9,6 +9,12 @@ import 'package:window_manager/window_manager.dart';
 
 const String appTitle = "WPBKJ快递查询助手"; // 应用标题
 const String version = "1.0.2"; // 应用版本号
+const String githubUrl =
+    "https://github.com/wpbkj/flutter_wpbkj_express"; // GITHUB开源仓库地址
+const String giteeUrl =
+    "https://gitee.com/wpbkj/flutter_wpbkj_express"; // GITEE开源仓库地址
+const String officialUrl =
+    "https://www.wpbkj.com/archives/flutter_wpbkj_express.html"; // 官方介绍页面地址
 
 // 判断是否为桌面端方法
 bool get isDesktop {

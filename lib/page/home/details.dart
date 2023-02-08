@@ -144,8 +144,8 @@ class _DetailsPageState extends State<DetailsPage> {
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               // 这里运行点击快递单号直接复制进剪贴板，也可以自行选择
-              GestureDetector(
-                child: SelectableText.rich(TextSpan(children: [
+              SelectableText.rich(
+                TextSpan(children: [
                   const TextSpan(
                     text: '快递单号：',
                     style: TextStyle(fontSize: 18),
@@ -157,7 +157,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       fontWeight: FontWeight.bold,
                     ),
                   )
-                ])),
+                ]),
                 onTap: () {
                   Clipboard.setData(ClipboardData(text: widget.number));
                   showToast('快递单号已复制进剪贴板');

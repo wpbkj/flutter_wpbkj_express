@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:wpbkj_express/main.dart';
 import 'author_info.dart';
 
 class FeedbackPage extends StatefulWidget {
@@ -16,10 +17,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('问题反馈'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('问题反馈')),
       body: ListView(
         children: [
           Container(
@@ -46,12 +44,11 @@ class _FeedbackPageState extends State<FeedbackPage> {
                         // 实现超链接效果
                         GestureDetector(
                           child: const Text(
-                            'https://github.com/wpbkj/flutter_wpbkj_express/issues',
+                            '$githubUrl/issues',
                             style: TextStyle(color: Colors.blueAccent),
                           ),
                           onTap: () {
-                            launchUrlString(
-                                'https://github.com/wpbkj/flutter_wpbkj_express/issues',
+                            launchUrlString('$githubUrl/issues',
                                 mode: LaunchMode.externalApplication);
                           },
                         ),
@@ -64,12 +61,11 @@ class _FeedbackPageState extends State<FeedbackPage> {
                         // 实现超链接效果
                         GestureDetector(
                           child: const Text(
-                            'https://gitee.com/wpbkj/flutter_wpbkj_express/issues',
+                            '$giteeUrl/issues',
                             style: TextStyle(color: Colors.blueAccent),
                           ),
                           onTap: () {
-                            launchUrlString(
-                                'https://gitee.com/wpbkj/flutter_wpbkj_express/issues',
+                            launchUrlString('$giteeUrl/issues',
                                 mode: LaunchMode.externalApplication);
                           },
                         ),

@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:wpbkj_express/main.dart';
 
 class OpenSourcePage extends StatefulWidget {
   const OpenSourcePage({Key? key}) : super(key: key);
@@ -15,17 +16,14 @@ class _OpenSourcePageState extends State<OpenSourcePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('开源仓库'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('开源仓库')),
       body: ListView(
         children: [
           Container(
             padding: const EdgeInsets.all(15),
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              const Text('项目开源仓库欢迎您的issus和pr'),
+              const Text('项目开源仓库欢迎您的issus和pr，如您喜欢也请您点一点star'),
               const SizedBox(height: 10),
               const Text(
                 '开源仓库',
@@ -45,12 +43,11 @@ class _OpenSourcePageState extends State<OpenSourcePage> {
                     // 实现超链接效果
                     GestureDetector(
                       child: const Text(
-                        'https://github.com/wpbkj/flutter_wpbkj_express',
+                        githubUrl,
                         style: TextStyle(color: Colors.blueAccent),
                       ),
                       onTap: () {
-                        launchUrlString(
-                            'https://github.com/wpbkj/flutter_wpbkj_express',
+                        launchUrlString(githubUrl,
                             mode: LaunchMode.externalApplication);
                       },
                     ),
@@ -63,12 +60,11 @@ class _OpenSourcePageState extends State<OpenSourcePage> {
                     // 实现超链接效果
                     GestureDetector(
                       child: const Text(
-                        'https://gitee.com/wpbkj/flutter_wpbkj_express',
+                        giteeUrl,
                         style: TextStyle(color: Colors.blueAccent),
                       ),
                       onTap: () {
-                        launchUrlString(
-                            'https://gitee.com/wpbkj/flutter_wpbkj_express',
+                        launchUrlString(giteeUrl,
                             mode: LaunchMode.externalApplication);
                       },
                     ),

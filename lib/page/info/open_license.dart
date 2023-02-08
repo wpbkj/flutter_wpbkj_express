@@ -32,10 +32,7 @@ class _OpenLicensePageState extends State<OpenLicensePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('开放源代码许可'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('开放源代码许可')),
       body: ListView(
         children: [
           Container(
@@ -55,7 +52,7 @@ class _OpenLicensePageState extends State<OpenLicensePage> {
                             height: 50,
                           ),
                           const Text(
-                            'WPBKJ 工具集',
+                            appTitle,
                             style: TextStyle(fontSize: 20),
                           ),
                           const Text(
@@ -65,24 +62,22 @@ class _OpenLicensePageState extends State<OpenLicensePage> {
                           // 实现超链接效果
                           GestureDetector(
                             child: const Text(
-                              'https://github.com/wpbkj/flutter_wpbkj_express',
+                              githubUrl,
                               style: TextStyle(color: Colors.blueAccent),
                             ),
                             onTap: () {
-                              launchUrlString(
-                                  'https://github.com/wpbkj/flutter_wpbkj_express',
+                              launchUrlString(githubUrl,
                                   mode: LaunchMode.externalApplication);
                             },
                           ),
                           // 实现超链接效果
                           GestureDetector(
                             child: const Text(
-                              'https://gitee.com/wpbkj/flutter_wpbkj_express',
+                              giteeUrl,
                               style: TextStyle(color: Colors.blueAccent),
                             ),
                             onTap: () {
-                              launchUrlString(
-                                  'https://gitee.com/wpbkj/flutter_wpbkj_express',
+                              launchUrlString(giteeUrl,
                                   mode: LaunchMode.externalApplication);
                             },
                           ),

@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:wpbkj_express/main.dart';
 
 class SupportPage extends StatefulWidget {
   const SupportPage({Key? key}) : super(key: key);
@@ -15,10 +16,7 @@ class _SupportPageState extends State<SupportPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('支持项目'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('支持项目')),
       body: ListView(
         children: [
           Container(
@@ -31,6 +29,7 @@ class _SupportPageState extends State<SupportPage> {
                 '参与开源项目建设',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
+              const Text('欢迎提交issues和pr，一个小小的star也是对我们的大力支持'),
               Card(
                   child: Container(
                 padding: const EdgeInsets.all(10),
@@ -45,11 +44,11 @@ class _SupportPageState extends State<SupportPage> {
                     // 实现超链接效果
                     GestureDetector(
                       child: const Text(
-                        'https://github.com/wpbkj/',
+                        githubUrl,
                         style: TextStyle(color: Colors.blueAccent),
                       ),
                       onTap: () {
-                        launchUrlString('https://github.com/wpbkj/',
+                        launchUrlString(githubUrl,
                             mode: LaunchMode.externalApplication);
                       },
                     ),
@@ -62,11 +61,11 @@ class _SupportPageState extends State<SupportPage> {
                     // 实现超链接效果
                     GestureDetector(
                       child: const Text(
-                        'https://gitee.com/wpbkj/',
+                        giteeUrl,
                         style: TextStyle(color: Colors.blueAccent),
                       ),
                       onTap: () {
-                        launchUrlString('https://gitee.com/wpbkj/',
+                        launchUrlString(giteeUrl,
                             mode: LaunchMode.externalApplication);
                       },
                     ),

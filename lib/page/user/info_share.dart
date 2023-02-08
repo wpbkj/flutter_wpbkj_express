@@ -15,10 +15,7 @@ class _InfoSharePageState extends State<InfoSharePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('个人信息共享清单'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('个人信息共享清单')),
       body: ListView(
         children: [
           Container(

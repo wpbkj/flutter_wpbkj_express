@@ -7,8 +7,10 @@ import 'package:extended_sliver/extended_sliver.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:wpbkj_express/main.dart';
+import 'package:wpbkj_express/request/update.dart';
 import 'package:wpbkj_express/widget/item_button.dart';
 import 'package:wpbkj_express/widget/toast.dart';
+import 'package:wpbkj_express/widget/update_dialog.dart';
 import 'info/open_source.dart';
 import 'info/author_info.dart';
 import 'info/open_license.dart';
@@ -26,6 +28,11 @@ class _InfoPageState extends State<InfoPage>
   @override
   bool get wantKeepAlive => true;
 
+  // 跳转官方介绍页面方法
+  void goOfficialUrl() {
+    launchUrlString(officialUrl, mode: LaunchMode.externalApplication);
+  }
+
   // 跳转开源仓库页面方法
   void goOpenSourcePage() {
     Navigator.push(context, MaterialPageRoute(builder: (context) {
@@ -42,8 +49,7 @@ class _InfoPageState extends State<InfoPage>
 
   // 分享应用方法
   void shareApp() {
-    Clipboard.setData(const ClipboardData(
-        text: 'https://www.wpbkj.com/archives/flutter_wpbkj_express.html'));
+    Clipboard.setData(const ClipboardData(text: officialUrl));
     showToastSuccess('已将链接复制进剪贴板，您可粘贴链接以分享给其他人');
   }
 
@@ -52,6 +58,21 @@ class _InfoPageState extends State<InfoPage>
     Navigator.push(context, MaterialPageRoute(builder: (context) {
       return const FeedbackPage();
     }));
+  }
+
+  // 再添加一层函数，防止出现在异步函数中使用context不规范
+  void showUpdateDialogMain(String lastVersion, String msg) {
+    showUpdateDialog(context, lastVersion, msg);
+  }
+
+  // 检查更新方法
+  void checkUpdate() async {
+    List<dynamic> updateList = await getUpdate();
+    if (updateList[0]) {
+      showUpdateDialogMain(updateList[1], updateList[2]);
+    } else {
+      showToast('软件已是最新版本');
+    }
   }
 
   // 跳转开放源代码许可页面方法
@@ -105,7 +126,7 @@ class _InfoPageState extends State<InfoPage>
                                           CrossAxisAlignment.start,
                                       children: const [
                                         Text(
-                                          'WPBKJ快递查询助手',
+                                          appTitle,
                                           style: TextStyle(fontSize: 20),
                                         ),
                                         Text(
@@ -134,10 +155,12 @@ class _InfoPageState extends State<InfoPage>
                   delegate: SliverChildListDelegate(
                 [
                   // 返回条目组件并绑定方法
+                  buildItemButton('软件官网', goOfficialUrl),
                   buildItemButton('开源仓库', goOpenSourcePage),
                   buildItemButton('联系作者', goAuthorInfoPage),
                   buildItemButton('分享软件', shareApp),
                   buildItemButton('问题反馈', goFeedbackPage),
+                  buildItemButton('检查更新', checkUpdate),
                   buildItemButton('开放源代码许可', goOpenLicensePage)
                 ],
               )),

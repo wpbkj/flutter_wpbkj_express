@@ -14,10 +14,7 @@ class _InfoCollectPageState extends State<InfoCollectPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('个人信息收集清单'),
-        backgroundColor: Colors.blueAccent,
-      ),
+      appBar: AppBar(title: const Text('个人信息收集清单')),
       body: ListView(
         children: [
           Container(

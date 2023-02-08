@@ -312,6 +312,8 @@ class _HomePageState extends State<HomePage> {
         Navigator.push(context, MaterialPageRoute(builder: (context) {
           return DetailsPage(number: number);
         })).then((value) {
+          // 这里每次从详细信息页面返回主页面都应刷新页面
+          // 获取用户在详细信息页面的刷新或修改标签操作
           selectDBallMain();
         });
       },

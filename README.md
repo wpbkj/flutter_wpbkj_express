@@ -1,7 +1,7 @@
 # 欢迎使用WPBKJ 快递查询助手
 <img src="assets/logo.png" width="100">
 
-![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.2-blue)
+![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.3-blue)
 
 [项目官方介绍页面](https://www.wpbkj.com/archives/flutter_wpbkj_express.html)
 ## 介绍
@@ -16,20 +16,26 @@
 
 ## 使用  
 releases发布Android和Windows版本，其他平台可自行编译使用(后期测试设备允许后全平台release将发布)  
-Android和Windows可直接下载releases最新发行版使用  
+Android、Windows和Linux可直接下载releases最新发行版使用  
 
 [releases](https://github.com/wpbkj/flutter_wpbkj_express/releases)  
  
 Android通常根据系统架构选择下载文件  
+Android通常架构为``arm64``，下载``arm64``版即可使用  
+如您不清楚或不确定系统架构，请下载通用版本(体积稍大)  
 ``所有架构通用``:``app-release.apk``  
 ``arm64``:``app-arm64-v8a-release.apk``  
 ``armeabi``:``app-armeabi-v7a-release.apk``  
 ``x86_64``:``app-x86_64-release.apk``   
-Android通常架构为``arm64``，下载``arm64``版即可使用  
-Windows请下载``Windows-Release.zip``解压后直接使用  
+
+Windows请下载``Linux-bundle.tar.gz``解压后运行``bundle/wpbkj_express``直接使用  
+
+Linux请下载``Windows-Release.zip``解压后运行``Release/wpbkj_express.exe``直接使用  
 
 ## 编译流程
-如您需要自行编译学习，请遵循以下流程
+如您需要自行编译学习，请遵循以下流程  
+Flutter版本：3.7.0  
+Dart 版本：2.19.0  
 ### 1、申请API token(可选)
 若您仅学习UI界面可忽略此步骤。
 
@@ -39,27 +45,30 @@ Windows请下载``Windows-Release.zip``解压后直接使用
 ``lib/api/config.dart``  
 文件中，修改变量``token``的值即可
 ### 2、开始编译
-```
+``` Shell
 flutter pub get  
 flutter run
 ```
+## 最新更新日志
+
+``1.0.3版本更新``  
+``增加开源仓库及官方页面链接常量，并在各页面绑定``  
+``修复运单详细信息页面点击运单号无法复制bug``  
+``修复支持页面链接错误bug``  
+``修复开放源代码许可页面名称错误bug``  
+``关于页面添加检查更新按钮``  
+``重写全局主题色``  
+``添加Linux打包release``
+
 ## 屏幕截图
 ### 移动端
-<img src="screenshots/1.jpg" width="300">
-<img src="screenshots/2.jpg" width="300">
-<img src="screenshots/3.jpg" width="300">
-<img src="screenshots/4.jpg" width="300">
-<img src="screenshots/5.jpg" width="300">
+<img src="screenshots/1.jpg" width="300"><img src="screenshots/2.jpg" width="300"><img src="screenshots/3.jpg" width="300"><img src="screenshots/4.jpg" width="300"><img src="screenshots/5.jpg" width="300">
 
 ### 桌面端
-<img src="screenshots/d1.png" width="500">
-<img src="screenshots/d2.png" width="500">
-<img src="screenshots/d2.png" width="500">
+<img src="screenshots/d1.png" width="500"><img src="screenshots/d2.png" width="500"><img src="screenshots/d2.png" width="500">
 
 ## 支持本项目
 ### 开源贡献
 您可以提交issues和pr，这是对本项目的最大支持
 ### 捐助
-<img src="assets/wechat.jpg" width="300">
-<img src="assets/alipay.jpg" width="300">
-<img src="assets/qqpay.jpg" width="300">
+<img src="assets/wechat.jpg" width="300"><img src="assets/alipay.jpg" width="300"><img src="assets/qqpay.jpg" width="300">
