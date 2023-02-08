@@ -1,5 +1,5 @@
 # 欢迎WPBKJ 快递查询助手
-![WPBKJ 快递查询助手Logo](assets/logo.png)
+<img src="assets/logo.png" width="100">
 
 ![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.1-blue)
 
@@ -17,15 +17,16 @@
 ## 使用  
 releases发布Android和Windows版本，其他平台可自行编译使用(后期测试设备允许后全平台release将发布)  
 Android和Windows可直接下载releases最新发行版使用  
+
 [releases](https://github.com/wpbkj/flutter_wpbkj_express/releases)  
-``v1.0.1+1``发行版  
+ 
 Android通常根据系统架构选择下载文件  
-``所有架构通用``:``app-release-1.0.1.apk``  
-``arm64``:``app-arm64-v8a-release-1.0.1.apk``  
-``armeabi``:``app-armeabi-v7a-release-1.0.1.apk``  
-``x86_64``:``app-x86_64-release-1.0.1.apk``   
+``所有架构通用``:``app-release.apk``  
+``arm64``:``app-arm64-v8a-release.apk``  
+``armeabi``:``app-armeabi-v7a-release.apk``  
+``x86_64``:``app-x86_64-release.apk``   
 Android通常架构为``arm64``，下载``arm64``版即可使用  
-Windows请下载``Windows-Release-1.0.1.zip``解压后直接使用  
+Windows请下载``Windows-Release.zip``解压后直接使用  
 
 ## 编译流程
 如您需要自行编译学习，请遵循以下流程
@@ -44,19 +45,21 @@ flutter run
 ```
 ## 屏幕截图
 ### 移动端
-![1](screenshots/1.jpg)
-![2](screenshots/2.jpg)
-![3](screenshots/3.jpg)
-![4](screenshots/4.jpg)
-![5](screenshots/5.jpg)
+<img src="screenshots/1.jpg" width="300">
+<img src="screenshots/2.jpg" width="300">
+<img src="screenshots/3.jpg" width="300">
+<img src="screenshots/4.jpg" width="300">
+<img src="screenshots/5.jpg" width="300">
+
 ### 桌面端
-![1](screenshots/d1.png)
-![2](screenshots/d2.png)
-![3](screenshots/d2.png)
+<img src="screenshots/d1.png" width="500">
+<img src="screenshots/d2.png" width="500">
+<img src="screenshots/d2.png" width="500">
+
 ## 支持本项目
 ### 开源共享
 您可以提交issues和pr，这是对本项目的最大支持
 ### 捐助
-![wechat](assets/wechat.jpg)
-![alipay](assets/alipay.jpg)
-![qqpay](assets/qqpay.jpg)
+<img src="assets/wechat.jpg" width="300">
+<img src="assets/alipay.jpg" width="300">
+<img src="assets/qqpay.jpg" width="300">
