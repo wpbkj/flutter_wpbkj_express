@@ -72,3 +72,13 @@ flutter run
 您可以提交issues和pr，这是对本项目的最大支持
 ### 捐助
 <img src="assets/wechat.jpg" width="300"><img src="assets/alipay.jpg" width="300"><img src="assets/qqpay.jpg" width="300">
+
+## License
+``` License
+wpbkj/flutter_wpbkj_express is licensed under the
+Apache License 2.0
+
+A permissive license whose main conditions require preservation of copyright and license notices. 
+Contributors provide an express grant of patent rights. 
+Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+```
