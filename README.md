@@ -57,7 +57,7 @@ flutter run
 <img src="screenshots/d2.png" width="500">
 
 ## 支持本项目
-### 开源共享
+### 开源贡献
 您可以提交issues和pr，这是对本项目的最大支持
 ### 捐助
 <img src="assets/wechat.jpg" width="300">
