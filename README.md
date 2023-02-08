@@ -61,12 +61,12 @@ flutter run
 ``添加Linux打包release``
 
 ## 联系作者
-WPBKJ
-``微信`` : ``wpbkj123``
-``QQ`` : ``64345171``
-``个人博客`` : ``https://www.wpbkj.com/``
-``邮箱`` : ``wpbkj123@163.com``
-``微信公众号`` : ``WPBKJ小站``
+**WPBKJ**  
+``微信`` : ``wpbkj123``  
+``QQ`` : ``64345171``  
+``个人博客`` : ``https://www.wpbkj.com/``  
+``邮箱`` : ``wpbkj123@163.com``  
+``微信公众号`` : ``WPBKJ小站``  
 
 <img src="assets/gzh.jpg" width="200">
 
