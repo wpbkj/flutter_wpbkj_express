@@ -144,7 +144,7 @@ class _UserPageState extends State<UserPage> {
                 ),
                 leading: Container(),
                 background: Container(
-                    color: Colors.blueAccent,
+                    color: Theme.of(context).primaryColor,
                     height: 180,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.end,

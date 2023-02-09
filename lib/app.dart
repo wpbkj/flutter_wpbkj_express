@@ -92,9 +92,9 @@ class MyApp extends StatelessWidget {
           .useSystemChineseFont(), // 普通模式(浅色模式)样式
       darkTheme: ThemeData(
               brightness: Brightness.dark,
-              primaryColor: Colors.blueAccent,
+              primaryColor: Colors.grey.shade800,
               visualDensity: VisualDensity.standard,
-              primarySwatch: createMaterialColor(Colors.blueAccent))
+              primarySwatch: Colors.grey)
           .useSystemChineseFont(), // 深色模式样式
     );
   }
@@ -168,7 +168,7 @@ class _MyHomePageState extends State<MyHomePage> {
           index: 0,
           height: 60,
           items: _items,
-          color: Colors.blueAccent, // 主题色
+          color: Theme.of(context).primaryColor, // 主题色
           buttonBackgroundColor: Colors.black12, // 悬浮按钮背景色
           backgroundColor: Colors.transparent, // 背景色
           animationCurve: Curves.easeInOut,

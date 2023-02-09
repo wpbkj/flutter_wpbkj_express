@@ -47,7 +47,7 @@ class _SplashPageState extends State<SplashPage> {
           fontWeight: FontWeight.bold,
         ),
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Theme.of(context).primaryColor,
       showLoader: true,
       loadingText: const Text("正在进行必备检查"),
       futureNavigator: futureCall(),

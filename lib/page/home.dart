@@ -39,9 +39,12 @@ class _HomePageState extends State<HomePage> {
   // 刷新数据方法
   Future<bool> _refreshExpress() async {
     // 添加震动反馈
-    HapticFeedback.heavyImpact();
-    await Future.delayed(const Duration(milliseconds: 500));
-    HapticFeedback.mediumImpact();
+    if (!isDesktop) {
+      HapticFeedback.heavyImpact();
+      await Future.delayed(const Duration(milliseconds: 500));
+      HapticFeedback.mediumImpact();
+    }
+
     List<String> noSignNumberList = await selectDBallNoSign();
     // 仅当没有签收的快递单号存在时执行刷新
     if (noSignNumberList.isNotEmpty) {

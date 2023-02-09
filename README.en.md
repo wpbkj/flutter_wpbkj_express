@@ -81,14 +81,9 @@ flutter run
 ```
 ## Latest version update log
 
-``1.0.3 Version update``  
-``Add open source repository and official page link constants, and bind them on each page``  
-``Fix the bug that cannot be copied by clicking the waybill number on the waybill details page``  
-``Fix support page link error bug``  
-``Fix the bug of open source license page name error``  
-``About Page Add Check Update Button``  
-``Override global theme color``  
-``Add Linux packaging release``
+``1.0.4 Version update``  
+``Mobile terminal adds home page to refresh vibration feedback``  
+``Modify the theme color to perfectly fit the dark mode``  
 
 ## Contact author
 **WPBKJ**  

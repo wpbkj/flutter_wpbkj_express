@@ -103,7 +103,7 @@ class _InfoPageState extends State<InfoPage>
                   ),
                   leading: Container(),
                   background: Container(
-                      color: Colors.blueAccent,
+                      color: Theme.of(context).primaryColor,
                       child: SafeArea(
                         child: Wrap(
                           runSpacing: 10,

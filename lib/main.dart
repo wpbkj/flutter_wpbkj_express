@@ -22,7 +22,7 @@ import 'package:flutter/foundation.dart';
 import 'package:window_manager/window_manager.dart';
 
 const String appTitle = "WPBKJ快递查询助手"; // 应用标题
-const String version = "1.0.3"; // 应用版本号
+const String version = "1.0.4"; // 应用版本号
 const String githubUrl =
     "https://github.com/wpbkj/flutter_wpbkj_express"; // GITHUB开源仓库地址
 const String giteeUrl =
