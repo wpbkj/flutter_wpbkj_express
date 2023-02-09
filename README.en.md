@@ -3,6 +3,8 @@
 
 ![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.3-blue)[![Flutter Responsive](https://img.shields.io/badge/flutter-responsive-brightgreen.svg?style=flat-square)](https://github.com/Codelessly/ResponsiveFramework)
 
+English | [简体中文](README.md)
+
 [Official introduction page(Chinese)](https://www.wpbkj.com/archives/flutter_wpbkj_express.html)
 ## Introduction
 **WPBKJ Express Query Assistant**The original intention of this software is to make an introductory software for Flutter, with detailed source code annotations, which is suitable for beginners to learn and reference Flutter.  
