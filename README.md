@@ -70,6 +70,30 @@ flutter run
 
 <img src="assets/gzh.jpg" width="200">
 
+## 项目衍生文章
+
+<table>
+	<tr>
+		<th colspan ="6">【Flutter】如何自定义Flutter MaterialApp主题色(primarySwatch)？</th>
+	</tr>
+	<tr>
+		<td>微信公众号</td>
+		<td>掘金</td>
+		<td>CSDN</td>
+		<td>知乎</td>
+		<td>百家号</td>
+		<td>博客</td>
+	</tr>
+	<tr>
+		<td><a href="https://mp.weixin.qq.com/s/j5YE_2Tr03OCbI5BSbFxvw">点我</a></td>
+		<td><a href="https://juejin.cn/post/7197955458963324989/">点我</a></td>
+		<td><a href="https://blog.csdn.net/wpb1047199265/article/details/128948152">点我</a></td>
+		<td><a href="https://zhuanlan.zhihu.com/p/604744176">点我</a></td>
+		<td><a href="https://baijiahao.baidu.com/builder/preview/s?id=1757319432010231624">点我</a></td>
+		<td><a href="https://www.wpbkj.com/archives/flutter-diy-primarySwatch.html">点我</a></td>
+	</tr>
+</table>
+
 ## 屏幕截图
 ### 移动端
 <img src="screenshots/1.jpg" width="300"><img src="screenshots/2.jpg" width="300"><img src="screenshots/3.jpg" width="300"><img src="screenshots/4.jpg" width="300"><img src="screenshots/5.jpg" width="300">
