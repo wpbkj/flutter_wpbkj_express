@@ -3,6 +3,8 @@
 
 ![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.3-blue)[![Flutter Responsive](https://img.shields.io/badge/flutter-responsive-brightgreen.svg?style=flat-square)](https://github.com/Codelessly/ResponsiveFramework)
 
+简体中文 | [English](README.en.md)
+
 [项目官方介绍页面](https://www.wpbkj.com/archives/flutter_wpbkj_express.html)
 ## 介绍
 **WPBKJ 快递查询助手**初衷是做一款Flutter入门软件，源代码注释详细，适合Flutter新手学习参考。
@@ -11,6 +13,8 @@
 - **功能丰富** ：支持快递查询，添加标签，清空数据等；
 - **易于读懂** ：源代码注释丰富，尽量在小的细节都添加注释，使得Flutter初学者可轻松理解；
 - **跨平台性** ：支持Android，Windows，Linux，iOS，MacOS等平台。
+
+若国内图片无法加载可访问[GITEE同名仓库](https://gitee.com/wpbkj/flutter_wpbkj_express)
 
 -------------------
 
@@ -58,8 +62,9 @@ Windows请下载``Windows-Release.zip``解压后运行``Release/wpbkj_express.ex
 
 ## 编译流程
 如您需要自行编译学习，请遵循以下流程  
-Flutter版本：3.7.0  
-Dart 版本：2.19.0  
+
+> 请先确保您的Flutter版本为``3.7``
+
 ### 1、申请API token(可选)
 若您仅学习UI界面可忽略此步骤。
 
@@ -73,7 +78,7 @@ Dart 版本：2.19.0
 flutter pub get  
 flutter run
 ```
-## 最新更新日志
+## 最新版本更新日志
 
 ``1.0.3版本更新``  
 ``增加开源仓库及官方页面链接常量，并在各页面绑定``  
