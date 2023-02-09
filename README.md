@@ -1,4 +1,5 @@
-# 欢迎使用WPBKJ 快递查询助手
+<div align="center">
+<h1>WPBKJ 快递查询助手</h1>
 <img src="assets/logo.png" width="100">
 
 ![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![Apache License](https://img.shields.io/badge/license-Apache%202-green)![version](https://img.shields.io/badge/version-v1.0.3-blue)[![Flutter Responsive](https://img.shields.io/badge/flutter-responsive-brightgreen.svg?style=flat-square)](https://github.com/Codelessly/ResponsiveFramework)
@@ -6,6 +7,8 @@
 简体中文 | [English](README.en.md)
 
 [项目官方介绍页面](https://www.wpbkj.com/archives/flutter_wpbkj_express.html)
+</div>
+
 ## 介绍
 **WPBKJ 快递查询助手**初衷是做一款Flutter入门软件，源代码注释详细，适合Flutter新手学习参考。
 **WPBKJ 快递查询助手**基于Flutter，实现全平台应用，通过调用快递查询API实现快递查询目标：
