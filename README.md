@@ -85,12 +85,12 @@ flutter run
 		<td>博客</td>
 	</tr>
 	<tr>
-		<td><a href="https://mp.weixin.qq.com/s/j5YE_2Tr03OCbI5BSbFxvw">点我</a></td>
-		<td><a href="https://juejin.cn/post/7197955458963324989/">点我</a></td>
-		<td><a href="https://blog.csdn.net/wpb1047199265/article/details/128948152">点我</a></td>
-		<td><a href="https://zhuanlan.zhihu.com/p/604744176">点我</a></td>
-		<td><a href="https://baijiahao.baidu.com/builder/preview/s?id=1757319432010231624">点我</a></td>
-		<td><a href="https://www.wpbkj.com/archives/flutter-diy-primarySwatch.html">点我</a></td>
+		<td><a href="https://mp.weixin.qq.com/s/j5YE_2Tr03OCbI5BSbFxvw" target="_blank">点我</a></td>
+		<td><a href="https://juejin.cn/post/7197955458963324989/" target="_blank">点我</a></td>
+		<td><a href="https://blog.csdn.net/wpb1047199265/article/details/128948152" target="_blank">点我</a></td>
+		<td><a href="https://zhuanlan.zhihu.com/p/604744176" target="_blank">点我</a></td>
+		<td><a href="https://baijiahao.baidu.com/builder/preview/s?id=1757319432010231624" target="_blank">点我</a></td>
+		<td><a href="https://www.wpbkj.com/archives/flutter-diy-primarySwatch.html" target="_blank">点我</a></td>
 	</tr>
 </table>
 
