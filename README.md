@@ -32,6 +32,30 @@ Linux请下载``Linux-bundle.tar.gz``解压后运行``bundle/wpbkj_express``直�
 
 Windows请下载``Windows-Release.zip``解压后运行``Release/wpbkj_express.exe``直接使用  
 
+## 项目衍生文章
+
+<table>
+	<tr>
+		<th colspan ="6">【Flutter】如何自定义Flutter MaterialApp主题色(primarySwatch)？</th>
+	</tr>
+	<tr>
+		<td>微信公众号</td>
+		<td>掘金</td>
+		<td>CSDN</td>
+		<td>知乎</td>
+		<td>百家号</td>
+		<td>博客</td>
+	</tr>
+	<tr>
+		<td><a href="https://mp.weixin.qq.com/s/j5YE_2Tr03OCbI5BSbFxvw" target="_blank">点我</a></td>
+		<td><a href="https://juejin.cn/post/7197955458963324989/" target="_blank">点我</a></td>
+		<td><a href="https://blog.csdn.net/wpb1047199265/article/details/128948152" target="_blank">点我</a></td>
+		<td><a href="https://zhuanlan.zhihu.com/p/604744176" target="_blank">点我</a></td>
+		<td><a href="https://baijiahao.baidu.com/builder/preview/s?id=1757319432010231624" target="_blank">点我</a></td>
+		<td><a href="https://www.wpbkj.com/archives/flutter-diy-primarySwatch.html" target="_blank">点我</a></td>
+	</tr>
+</table>
+
 ## 编译流程
 如您需要自行编译学习，请遵循以下流程  
 Flutter版本：3.7.0  
@@ -69,30 +93,6 @@ flutter run
 ``微信公众号`` : ``WPBKJ小站``  
 
 <img src="assets/gzh.jpg" width="200">
-
-## 项目衍生文章
-
-<table>
-	<tr>
-		<th colspan ="6">【Flutter】如何自定义Flutter MaterialApp主题色(primarySwatch)？</th>
-	</tr>
-	<tr>
-		<td>微信公众号</td>
-		<td>掘金</td>
-		<td>CSDN</td>
-		<td>知乎</td>
-		<td>百家号</td>
-		<td>博客</td>
-	</tr>
-	<tr>
-		<td><a href="https://mp.weixin.qq.com/s/j5YE_2Tr03OCbI5BSbFxvw" target="_blank">点我</a></td>
-		<td><a href="https://juejin.cn/post/7197955458963324989/" target="_blank">点我</a></td>
-		<td><a href="https://blog.csdn.net/wpb1047199265/article/details/128948152" target="_blank">点我</a></td>
-		<td><a href="https://zhuanlan.zhihu.com/p/604744176" target="_blank">点我</a></td>
-		<td><a href="https://baijiahao.baidu.com/builder/preview/s?id=1757319432010231624" target="_blank">点我</a></td>
-		<td><a href="https://www.wpbkj.com/archives/flutter-diy-primarySwatch.html" target="_blank">点我</a></td>
-	</tr>
-</table>
 
 ## 屏幕截图
 ### 移动端
