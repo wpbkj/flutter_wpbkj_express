@@ -97,7 +97,7 @@ flutter run
 
 ## Screenshots
 ### Mobile terminal
-<img src="screenshots/1.jpg" width="300"><img src="screenshots/2.jpg" width="300"><img src="screenshots/3.jpg" width="300"><img src="screenshots/4.jpg" width="300"><img src="screenshots/5.jpg" width="300">
+<img src="screenshots/1.jpg" width="300"><img src="screenshots/2.jpg" width="300"><img src="screenshots/3.jpg" width="300"><img src="screenshots/4.jpg" width="300">
 
 ### Desktop
 <img src="screenshots/d1.png" width="500"><img src="screenshots/d2.png" width="500"><img src="screenshots/d3.png" width="500">
