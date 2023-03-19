@@ -20,7 +20,8 @@ const Map<String, String> expressCode = {
   "京东快递": "jingdong",
   "京东物流": "jd",
   "邮政平邮": "pingyou",
-  "顺丰": "shunfeng"
+  "顺丰": "shunfeng",
+  "极兔速递": "jt"
 };
 
 const Map<String, String> codeExpress = {
@@ -40,7 +41,8 @@ const Map<String, String> codeExpress = {
   "jingdong": "京东快递",
   "jd": "京东物流",
   "pingyou": "邮政平邮",
-  "shunfeng": "顺丰"
+  "shunfeng": "顺丰",
+  "jt": "极兔速递"
 };
 
 // 快递状态代码（详细信息）

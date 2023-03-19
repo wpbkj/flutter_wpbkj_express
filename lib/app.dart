@@ -12,7 +12,6 @@ import 'package:wpbkj_express/page/user.dart';
 import 'package:wpbkj_express/page/info.dart';
 import 'package:wpbkj_express/page/splash.dart';
 import 'package:wpbkj_express/page/error/db_error.dart';
-import 'package:wpbkj_express/page/error/connect_error.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:curved_labeled_navigation_bar/curved_navigation_bar.dart';
 import 'package:curved_labeled_navigation_bar/curved_navigation_bar_item.dart';
@@ -72,7 +71,6 @@ class MyApp extends StatelessWidget {
         // 绑定路由
         '/': (context) => const SplashPage(),
         '/home': (context) => const MyHomePage(),
-        '/connect_error': (context) => const ConnectErrorPage(),
         '/db_error': (context) => const DBErrorPage()
       },
       locale: const Locale('zh', 'CN'), // 本地化

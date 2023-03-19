@@ -2,7 +2,7 @@
 <h1>WPBKJ 快递查询助手</h1>
 <img src="assets/logo.png" width="100">
 
-![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![License](https://img.shields.io/github/license/wpbkj/flutter_wpbkj_express)![version](https://img.shields.io/badge/version-v1.0.4-blue)[![Flutter Responsive](https://img.shields.io/badge/flutter-responsive-brightgreen.svg?style=flat-square)](https://github.com/Codelessly/ResponsiveFramework)![Language Count](https://img.shields.io/github/languages/count/wpbkj/flutter_wpbkj_express)![Top Language](https://img.shields.io/github/languages/top/wpbkj/flutter_wpbkj_express)![Code Size](https://img.shields.io/github/languages/code-size/wpbkj/flutter_wpbkj_express)![repo Size](https://img.shields.io/github/repo-size/wpbkj/flutter_wpbkj_express)![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20iOS%20%7C%20MacOS-brightgreen)
+![flutter_wpbkj_express](https://img.shields.io/badge/flutter-wpbkj__express-blue)![License](https://img.shields.io/github/license/wpbkj/flutter_wpbkj_express)![version](https://img.shields.io/badge/version-v1.0.5-blue)[![Flutter Responsive](https://img.shields.io/badge/flutter-responsive-brightgreen.svg?style=flat-square)](https://github.com/Codelessly/ResponsiveFramework)![Language Count](https://img.shields.io/github/languages/count/wpbkj/flutter_wpbkj_express)![Top Language](https://img.shields.io/github/languages/top/wpbkj/flutter_wpbkj_express)![Code Size](https://img.shields.io/github/languages/code-size/wpbkj/flutter_wpbkj_express)![repo Size](https://img.shields.io/github/repo-size/wpbkj/flutter_wpbkj_express)![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20iOS%20%7C%20MacOS-brightgreen)
 
 简体中文 | [English](README.en.md)
 
@@ -83,9 +83,9 @@ flutter run
 ```
 ## 最新版本更新日志
 
-``1.0.4版本更新``  
-``移动端添加首页刷新震动反馈``  
-``修改主题色，完美适配深色模式``  
+``1.0.5版本更新``  
+``适配更多快递公司``  
+``取消无网络禁止进入``  
 
 ## 联系作者
 **WPBKJ**  

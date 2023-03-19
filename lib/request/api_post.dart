@@ -1,8 +1,8 @@
-
-
 // description: API调用
 // author: WPBKJ
 // date: 2023-02-07
+
+import 'dart:convert';
 
 import '../api/config.dart';
 import 'package:dio/dio.dart';
@@ -20,22 +20,10 @@ Future<String> postAPI(String number) async {
         data: formData, options: Options(responseType: ResponseType.plain));
     responseData = response.data.toString();
     updateDBqueryNum();
-  } on DioError catch (e) {
-    responseData = e.message;
+  } on DioError {
+    Map<String, String> errorMap = {'code': '404', 'message': '请检查网络连接或稍后再试'};
+    responseData = jsonEncode(errorMap);
   }
 
   return responseData;
-}
-
-// 检查API服务器连接，每次开启应用都应调用
-Future<bool> checkAPIconnect() async {
-  bool? status;
-  var dio = Dio();
-  try {
-    await dio.post(apiUrl);
-    status = true;
-  } on DioError {
-    status = false;
-  }
-  return status;
 }
